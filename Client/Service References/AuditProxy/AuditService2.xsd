@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://adglopez.samples/servicebus/auditing" elementFormDefault="qualified" targetNamespace="http://adglopez.samples/servicebus/auditing" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Adglopez.Samples.ServiceBus.Auditing.Services" />
+  <xs:element name="Audit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Adglopez.Samples.ServiceBus.Auditing.Services" minOccurs="0" name="composite" nillable="true" type="q1:CompositeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

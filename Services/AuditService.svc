@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Adglopez.Samples.ServiceBus.Auditing.Services.AuditService" %>
