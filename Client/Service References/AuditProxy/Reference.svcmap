@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
+    <MetadataFile FileName="AuditService.xsd" MetadataType="Schema" ID="158b1ad3-7389-4163-a5a9-7e44f7d89483" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AuditService1.xsd" MetadataType="Schema" ID="6f6314be-2140-4cf6-9b17-19a1d78890cb" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd1" />
     <MetadataFile FileName="AuditService.wsdl" MetadataType="Wsdl" ID="fe8e7a37-1099-4e20-ab44-c21b7b1f5a08" SourceId="1" SourceUrl="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl" />
-    <MetadataFile FileName="AuditService1.wsdl" MetadataType="Wsdl" ID="2165525a-ea25-4dee-90e7-7d5a3505e34b" SourceId="1" SourceUrl="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl=wsdl0" />
-    <MetadataFile FileName="AuditService.xsd" MetadataType="Schema" ID="3727cb09-095e-46d5-990f-dec6d53829cc" SourceId="1" SourceUrl="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd1" />
-    <MetadataFile FileName="AuditService1.xsd" MetadataType="Schema" ID="653641bb-0aff-4c78-a3c4-75e0aa511123" SourceId="1" SourceUrl="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" />
-    <MetadataFile FileName="AuditService2.xsd" MetadataType="Schema" ID="4b61482e-692b-486e-957d-b645c0f97d6a" SourceId="1" SourceUrl="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuditService2.wsdl" MetadataType="Wsdl" ID="d7036395-de0c-4979-ac49-2364d5e20cc9" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AuditService2.xsd" MetadataType="Schema" ID="ad5c804b-eb4c-46ae-bbdf-ecf6643fefca" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

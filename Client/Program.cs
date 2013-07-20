@@ -9,7 +9,8 @@ namespace Adglopez.Samples.ServiceBus.Auditing.Client
     {
         public static void Main(string[] args)
         {
-            var client = new Client.AuditProxy.AuditServiceClient("DefaultEndpoint");
+            var client = new Client.AuditProxy.AuditServiceClient("AuditService" +
+                                                                  "");
 
             var request = new CompositeType {BusinessProcess = "Test Process", Content = "<Hello/>"};
 
