@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Globalization;
 using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy;
 
@@ -9,16 +12,43 @@ namespace Adglopez.Samples.ServiceBus.Auditing.Client
     {
         public static void Main(string[] args)
         {
-            var client = new Client.AuditProxy.AuditServiceClient("AuditService" +
-                                                                  "");
 
-            var request = new CompositeType {BusinessProcess = "Test Process", Content = "<Hello/>"};
+            int messagesToSend;
 
-            Console.WriteLine("Request:\n{0}", request.SerializeObject());
+            do
+            {
+                Console.Clear();
+                Console.Write("Numer of messages to send: ");
 
-            client.Audit(request);
+            } while (!int.TryParse(Console.ReadLine(), NumberStyles.Integer, CultureInfo.InvariantCulture, out messagesToSend));
 
-            Console.WriteLine("Message sent!");
+
+            var sendMessageTask = new Action<object>(i =>
+                                            {
+                                                var client = new Client.AuditProxy.AuditServiceClient("AuditService");
+
+                                                var request = new CompositeType { BusinessProcess = "Test Process", Content = "<Hello/>" };
+
+                                                if (messagesToSend == 0)
+                                                    Console.WriteLine("Request {0}:\n{1}", i, request.SerializeObject());
+
+                                                client.Audit(request);
+                                            });
+
+            var tasks = new Task[messagesToSend];
+
+            for (int i = 0; i < messagesToSend; i++)
+            {
+                tasks[i] = new Task(sendMessageTask, null);
+                tasks[i].Start();
+            }
+
+            Console.WriteLine("Sending messages...");
+
+            Task.WaitAll(tasks);
+
+            Console.WriteLine("{0} messages were sent.", messagesToSend);
+
             Console.ReadLine();
         }
 
