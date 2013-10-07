@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://adglopez.samples/servicebus/auditing" elementFormDefault="qualified" targetNamespace="http://adglopez.samples/servicebus/auditing" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Adglopez.Samples.ServiceBus.Auditing.Services" />
+  <xs:import schemaLocation="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Adglopez.Samples.ServiceBus.Auditing.Services" />
   <xs:element name="Audit">
     <xs:complexType>
       <xs:sequence>

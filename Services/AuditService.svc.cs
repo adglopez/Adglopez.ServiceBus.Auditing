@@ -7,7 +7,7 @@ namespace Adglopez.Samples.ServiceBus.Auditing.Services
 {
     public class AuditService : IAuditService
     {
-        const  string Path = @"E:\Temp\";
+        const  string Path = @"C:\Temp\";
 
         public void Audit(CompositeType message)
         {

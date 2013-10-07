@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy {
+namespace Adglopez.ServiceBus.Auditing.Client.AuditProxy {
     using System.Runtime.Serialization;
     using System;
     
@@ -80,19 +80,19 @@ namespace Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy {
     public interface IAuditService {
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="Audit")]
-        void Audit(Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite);
+        void Audit(Adglopez.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite);
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="Audit")]
-        System.Threading.Tasks.Task AuditAsync(Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite);
+        System.Threading.Tasks.Task AuditAsync(Adglopez.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IAuditServiceChannel : Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.IAuditService, System.ServiceModel.IClientChannel {
+    public interface IAuditServiceChannel : Adglopez.ServiceBus.Auditing.Client.AuditProxy.IAuditService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class AuditServiceClient : System.ServiceModel.ClientBase<Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.IAuditService>, Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.IAuditService {
+    public partial class AuditServiceClient : System.ServiceModel.ClientBase<Adglopez.ServiceBus.Auditing.Client.AuditProxy.IAuditService>, Adglopez.ServiceBus.Auditing.Client.AuditProxy.IAuditService {
         
         public AuditServiceClient() {
         }
@@ -113,11 +113,11 @@ namespace Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy {
                 base(binding, remoteAddress) {
         }
         
-        public void Audit(Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite) {
+        public void Audit(Adglopez.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite) {
             base.Channel.Audit(composite);
         }
         
-        public System.Threading.Tasks.Task AuditAsync(Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite) {
+        public System.Threading.Tasks.Task AuditAsync(Adglopez.ServiceBus.Auditing.Client.AuditProxy.CompositeType composite) {
             return base.Channel.AuditAsync(composite);
         }
     }

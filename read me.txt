@@ -8,7 +8,7 @@ PowerShell
 
 	http://msdn.microsoft.com/en-us/library/windowsazure/hh966775.aspx	
 	http://code.msdn.microsoft.com/windowsazure/How-to-use-WCF-to-32e5cbb4
-	hhttp://msdn.microsoft.com/en-us/library/windowsazure/ee173579.aspx
+	http://msdn.microsoft.com/en-us/library/windowsazure/ee173579.aspx
 	http://www.wadewegner.com/2010/05/host-wcf-services-in-iis-with-service-bus-endpoints/
 	http://blogs.msdn.com/b/tomholl/archive/2011/10/07/using-service-bus-queues-with-wcf.aspx
 	http://blogs.msdn.com/b/tomholl/archive/2011/10/09/using-service-bus-topics-and-subscriptions-with-wcf.aspx

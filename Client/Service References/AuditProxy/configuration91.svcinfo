@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="BJ5BDw6fPkSHwquVXM/OZLX1NbQ=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="m1Gd1Vil74mmaO49xpjcxGiTEu0=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="customBinding" name="AuditService">
       <properties>
@@ -58,7 +58,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="AuditService" contract="AuditProxy.IAuditService" bindingType="customBinding" address="sb://penny/WorkflowDefaultNamespace/ServiceBusQueueSample" bindingConfiguration="AuditService">
+    <endpoint name="AuditService1" contract="AuditProxy.IAuditService" bindingType="customBinding" address="sb://penny/WorkflowDefaultNamespace/ServiceBusQueueSample" bindingConfiguration="AuditService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>sb://penny/WorkflowDefaultNamespace/ServiceBusQueueSample</serializedValue>
@@ -133,7 +133,7 @@
           <serializedValue>False</serializedValue>
         </property>
         <property path="/name" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>AuditService</serializedValue>
+          <serializedValue>AuditService1</serializedValue>
         </property>
         <property path="/kind" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

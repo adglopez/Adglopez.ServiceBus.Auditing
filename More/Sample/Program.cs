@@ -81,8 +81,9 @@ namespace Adglopez.Samples.ServiceBus.Auditing.Sample
                 var transportClientEndpointBehavior = new TransportClientEndpointBehavior
                 {
                     TokenProvider = TokenProvider.CreateOAuthTokenProvider(stsUris, networkCredential)
-                };
-                
+
+
+                };               
 
                 // Create the URI of the 2 endpoints exposed by the service. 
                 // The URI includes your service namespace name and schema type.

@@ -19,14 +19,15 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost/Adglopez.ServiceBus.Auditing.Services/AuditService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="AuditService.xsd" MetadataType="Schema" ID="158b1ad3-7389-4163-a5a9-7e44f7d89483" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" />
-    <MetadataFile FileName="AuditService1.xsd" MetadataType="Schema" ID="6f6314be-2140-4cf6-9b17-19a1d78890cb" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd1" />
-    <MetadataFile FileName="AuditService.wsdl" MetadataType="Wsdl" ID="fe8e7a37-1099-4e20-ab44-c21b7b1f5a08" SourceId="1" SourceUrl="http://localhost/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl" />
-    <MetadataFile FileName="AuditService2.wsdl" MetadataType="Wsdl" ID="d7036395-de0c-4979-ac49-2364d5e20cc9" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl=wsdl0" />
-    <MetadataFile FileName="AuditService2.xsd" MetadataType="Schema" ID="ad5c804b-eb4c-46ae-bbdf-ecf6643fefca" SourceId="1" SourceUrl="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuditService3.xsd" MetadataType="Schema" ID="df081118-e2ee-4abc-ac75-d9b84e244f77" SourceId="1" SourceUrl="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AuditService31.xsd" MetadataType="Schema" ID="3e7bb5d3-7b3d-462c-9499-eba8f96e865d" SourceId="1" SourceUrl="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuditService1.wsdl" MetadataType="Wsdl" ID="70a6503c-38fa-4e77-a77d-078c43422400" SourceId="1" SourceUrl="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AuditService.disco" MetadataType="Disco" ID="d6bedf82-dc53-4e29-993f-f7381c9e826e" SourceId="1" SourceUrl="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?disco" />
+    <MetadataFile FileName="AuditService11.wsdl" MetadataType="Wsdl" ID="863959d2-b185-4910-8754-712e437fc5be" SourceId="1" SourceUrl="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?wsdl" />
+    <MetadataFile FileName="AuditService32.xsd" MetadataType="Schema" ID="7ae2a151-cece-4bab-ac5d-789070e72375" SourceId="1" SourceUrl="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

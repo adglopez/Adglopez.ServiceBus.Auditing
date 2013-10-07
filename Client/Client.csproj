@@ -7,8 +7,8 @@
     <ProjectGuid>{9A2E18F2-66E4-4301-AB12-862DFC739C46}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Adglopez.Samples.ServiceBus.Auditing.Client</RootNamespace>
-    <AssemblyName>Adglopez.Samples.ServiceBus.Auditing.Client</AssemblyName>
+    <RootNamespace>Adglopez.ServiceBus.Auditing.Client</RootNamespace>
+    <AssemblyName>Adglopez.ServiceBus.Auditing.Client</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,7 +53,6 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\AuditProxy\AuditService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -62,14 +61,15 @@
     <WCFMetadataStorage Include="Service References\AuditProxy\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\AuditProxy\AuditService.xsd">
+    <None Include="Service References\AuditProxy\AuditService1.wsdl" />
+    <None Include="Service References\AuditProxy\AuditService11.wsdl" />
+    <None Include="Service References\AuditProxy\AuditService3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\AuditProxy\AuditService1.xsd">
+    <None Include="Service References\AuditProxy\AuditService31.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\AuditProxy\AuditService2.wsdl" />
-    <None Include="Service References\AuditProxy\AuditService2.xsd">
+    <None Include="Service References\AuditProxy\AuditService32.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\AuditProxy\configuration91.svcinfo" />
@@ -82,6 +82,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuditProxy\AuditService.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -3,9 +3,9 @@ using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-using Adglopez.Samples.ServiceBus.Auditing.Client.AuditProxy;
+using Adglopez.ServiceBus.Auditing.Client.AuditProxy;
 
-namespace Adglopez.Samples.ServiceBus.Auditing.Client
+namespace Adglopez.ServiceBus.Auditing.Client
 {
     public static class Program
     {

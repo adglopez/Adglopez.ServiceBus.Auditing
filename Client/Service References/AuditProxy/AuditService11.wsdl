@@ -9,7 +9,7 @@
       </wsp:All>
     </wsp:ExactlyOne>
   </wsp:Policy>
-  <wsdl:import namespace="http://adglopez.samples/servicebus/auditing" location="http://penny/Adglopez.Samples.ServiceBus.Auditing.Services/AuditService.svc?wsdl=wsdl0" />
+  <wsdl:import namespace="http://adglopez.samples/servicebus/auditing" location="http://penny/Adglopez.ServiceBus.Auditing.Services/AuditService.svc?wsdl=wsdl0" />
   <wsdl:types />
   <wsdl:binding name="AuditService" type="i0:IAuditService">
     <wsp:PolicyReference URI="#AuditService_policy" />
